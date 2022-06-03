@@ -1,0 +1,155 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/** Hero Section*/
+#hero{
+    background-image: url(images/rishikesh-hero1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    height: 294px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #A7C957;   
+}
+ 
+
+h1{
+    margin:20px auto 0px;
+    text-shadow: 1px 4px 12px black;
+    text-align: center;
+    max-width: 210px;
+    border-radius: 10px;
+    
+} 
+
+   
+
+
+.subheading{
+    display: block;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 12px 12px;
+    font-weight: 400;
+    text-shadow: 1px 4px  12px black;
+    border-radius: 10px;
+    
+}
+
+/**
+Activity Section */
+
+
+
+.activity-section{
+    padding: 56px 32px;
+    background: #F1FAEE;
+    text-align: center;
+}
+
+
+/** bottom part of activity section */
+
+.activity-section-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto 8px;
+    max-width: 1000px;
+}
+
+.activities{
+    width: 198px;
+    position: relative;
+     
+}
+
+h3{
+  font-size: 1.5em;
+  Color: #081c15;
+  margin-top: 0; 
+    
+}
+
+
+.round-image{
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    
+}
+
+.placeholder-img{
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: auto;
+    left: 45px;
+    right: 28px;
+    top: -15px;
+    z-index: 1;
+    color: #081c15;
+    align-content: center;
+    text-align: center;
+}
+
+h4{
+   width: 170px;
+   margin: 20px auto 8px;
+   color: #081c15;
+   line-height: 1.5em; 
+}
+
+p{
+    margin: 0;
+    color: #434B48;
+    line-height: 1.5em;
+}
+
+#box-container{
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #A8DADC;
+    padding: 24px 12px;
+    border-bottom: 10px solid #414833;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-radius: 10px;
+    background-color:  #a4ac86;
+    
+}
+
+#my-img {
+    background-image: url(images/sudesh-dwivedi.png);
+    background-size: cover;
+    width: 180px;
+    border-radius: 8px;
+    
+}
+
+#your-guide-text{
+    max-width: 189px;
+}
